@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Realtime communication with WebRTC</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      video {
+        max-width: 100%;
+        width: 320px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Realtime communication with WebRTC</h1>
+
+    <video id="localVideo" autoplay playsinline></video>
+    <video id="remoteVideo" autoplay playsinline></video>
+
+    <div>
+      <button id="startButton">B端开始</button>
+      <button id="callButton">B端调用</button>
+      <button id="hangupButton">挂断B端定时器</button>
+    </div>
+    <script src="./jquery.js"></script>
+    <script src="./rome.js"></script>
+    <!-- <script src="./main.js"></script> -->
+  </body>
+</html>
