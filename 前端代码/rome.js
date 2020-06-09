@@ -14,8 +14,8 @@ window.onload = function () {
   var webcamStream = null;
 
   // 请更换成你node本地跑起来 所在的 ip地址     
-  let getUrl = "http://192.168.1.108:3001/data/remo"
-  let postUrl = "http://192.168.1.108:3001/data/local"
+  let getUrl = "http://nodeip 地址:3001/data/remo"
+  let postUrl = "http://node 所在ip地址:3001/data/local"
 
 
 

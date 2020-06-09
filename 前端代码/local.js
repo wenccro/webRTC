@@ -14,8 +14,8 @@ window.onload = function () {
 
   let timer
   // 请更换成你node本地跑起来 所在的 ip地址     
-  let getUrl = "http://192.168.1.108:3001/data/local"
-  let postUrl = "http://192.168.1.108:3001/data/remo"
+  let getUrl = "http://ip地址:3001/data/local"
+  let postUrl = "http://nodeip地址:3001/data/remo"
 
   // A创建一个RTCPeerConnection对象
   let localPeerConnection;
